@@ -7,7 +7,8 @@ const sequelize = new Sequelize(
   config.development.password,
   {
     host: config.development.host,
-    dialect: config.development.dialect
+    dialect: config.development.dialect,
+    port: config.development.port
   }
 );
 
