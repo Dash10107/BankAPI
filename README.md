@@ -7,7 +7,7 @@ Sequelize ORM: Data modeling and interaction with the PostgreSQL database.
 Supabase Integration: Utilizes Supabase as the backend database service.
 
 Installation
-Clone the repository: git clone https://github.com/yourusername/BankAPI.git
+Clone the repository: git clone https://github.com/Dash10107/BankAPI.git
 
 Install dependencies:
 
