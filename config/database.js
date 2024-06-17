@@ -1,4 +1,11 @@
-require('dotenv').config();
+const dotenv = require("dotenv");
+
+const config = dotenv.config();
+
+if (config.error) {
+  throw new Error("Could not find .env file");
+}
+
 
 module.exports = {
   development: {
@@ -6,7 +13,7 @@ module.exports = {
     password: process.env.DB_PASSWORD,
     database: process.env.DB_NAME,
     host: process.env.DB_HOST,
-    port: process.env.DB_PORT, 
+    port: parseInt(process.env.PORT, 10), 
     dialect: "postgres"
   }
 };
