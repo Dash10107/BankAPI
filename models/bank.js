@@ -1,3 +1,4 @@
+// models/bank.js
 module.exports = (sequelize, DataTypes) => {
     const Bank = sequelize.define('Bank', {
       id: {

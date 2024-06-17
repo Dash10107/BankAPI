@@ -1,3 +1,4 @@
+// controllers/bankController.js
 const db = require('../models');
 const Bank = db.Bank;
 const Branch = db.Branch;

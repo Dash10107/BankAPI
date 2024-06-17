@@ -1,3 +1,4 @@
+// models/branch.js
 module.exports = (sequelize, DataTypes) => {
     const Branch = sequelize.define('Branch', {
       ifsc: {
