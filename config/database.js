@@ -13,7 +13,7 @@ module.exports = {
     password: process.env.DB_PASSWORD,
     database: process.env.DB_NAME,
     host: process.env.DB_HOST,
-    port: parseInt(process.env.PORT, 10), 
+    port: process.env.DB_PORT, 
     dialect: "postgres"
   }
 };
